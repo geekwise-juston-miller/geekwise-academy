@@ -10,6 +10,9 @@ html, body{
 }
 
 body{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
     width: 100%;
     height: auto;
     background-color: #ffffff;
@@ -18,12 +21,14 @@ body{
 }
 
 header{
+    position: relative;
     width: 100%;
     height: 20%;
     display: block;
 }
 
 nav{
+    position: relative;
     width: 80%;
     height: auto;
     display: block;
@@ -80,16 +85,18 @@ nav > ul > li:active{
 }
 
 main{
+    position: relative;
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 60%;
     display: block;
-    background-color: #7a1501;
+   
 }
 
 
 footer{
+    position: relative;
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -103,22 +110,71 @@ footer{
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    display: block;
 }
 
 /* id section */
 
 #mid_logo{
+    position: relative;
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 30%;
-    background-image: url(http://i.imgur.com/a4I7opQ.jpg);
-    
+    height:auto;
+    background-color: #ffffff;
 }
 #mid_text{
-    margin: 0 auto;
-    padding: 0;
+    position: relative;
+    margin-top: .5rem;
+    padding-top: 2rem;
     width: 100%;
-    height: 30%;
+    height:20rem;
+    font-family: monospace;
+    background-color: #7a1501;
+    color: #ffffff;
 }
 
+#mid_text > h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: -.09rem;
+}
+
+h3{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    font-family: monospace;
+    letter-spacing: -.05rem;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#bottom{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+#bottom > ul > li{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: calc(100%/3);
+    height: auto;
+    float: left;
+    display: block;
+    
+}
+
+#bottom > ul > li > span{
+    margin: 0 auto;
+    display: block;
+
+}
