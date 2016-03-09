@@ -19,12 +19,15 @@ body{
     font-size: 1.6rem;
     display: block;
 }
-
+.main_body{
+    background-color: #7a1501:
+}
 header{
     position: relative;
     width: 100%;
     height: 20%;
     display: block;
+    left: 18rem;
 }
 
 nav{
@@ -95,15 +98,6 @@ main{
 }
 
 
-footer{
-    position: relative;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 20%;
-    display: block;
-}
-
 /* class section */
 
 .center{
@@ -125,10 +119,12 @@ footer{
 }
 #mid_text{
     position: relative;
+    margin: 0;
+    padding: 0;
     margin-top: .5rem;
     padding-top: 2rem;
     width: 100%;
-    height:20rem;
+    height:22rem;
     font-family: monospace;
     background-color: #7a1501;
     color: #ffffff;
@@ -145,20 +141,27 @@ h3{
     font-weight: bolder;
     font-family: monospace;
     letter-spacing: -.05rem;
+    
 }
 
 footer{
+    margin: 0 auto;
+    padding: 0;
     position: relative;
     width: 100%;
-    height: auto;
+    height: 12rem;
     display: block;
+    background-color: #7a1501;
 }
 
 #bottom{
     position: relative;
     width: 100%;
-    height: auto;
+    height: 30%;
     display: block;
+    padding: 0;
+    margin: 0;
+    
     
 }
 
@@ -176,5 +179,7 @@ footer{
 #bottom > ul > li > span{
     margin: 0 auto;
     display: block;
+    color: #ffffff;
+    
 
 }
