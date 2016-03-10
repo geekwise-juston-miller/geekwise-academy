@@ -4,57 +4,58 @@ html, body{
     width: 100%;
     height: auto;
     font-size: 62.5%;
-    font-family: "iria";
-    font-family: "franchise";
+    font-family:sans-serif;
     box-sizing: border-box;
 }
 
 body{
     margin: 0 auto;
     padding: 0;
-    position: relative;
     width: 100%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #7a1501;
     font-size: 1.6rem;
     display: block;
 }
-.main_body{
-    background-color: #7a1501:
-}
+
+
 header{
-    position: relative;
+    margin: 0 auto;
+    padding: 0;
     width: 100%;
     height: 20%;
     display: block;
-    left: 18rem;
+    background-color: #ffffff;
 }
 
 nav{
-    position: relative;
+    margin: 0 auto;
+    padding: 0;
     width: 80%;
-    height: auto;
+    height: 20%;
     display: block;
+    
 }
 
 nav > ul{
+    margin: 0 auto;
     width: 100%;
-    height: 0;
+    height: 20%;
     display: block;
+
 }
 
 nav > ul > li{
     padding: 0;
     margin-top: 2.5rem;
     margin-right: .3rem;
-    width: calc(60%/7);
+    width: calc(65%/7);
     height: 5rem;
     line-height: 5rem;
     float: left;
     list-style-type: none;
     color: #000000;
     font-weight: bold;
-    font-family: serif;
     display: block;
     
 }
@@ -88,12 +89,12 @@ nav > ul > li:active{
 }
 
 main{
-    position: relative;
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 60%;
+    height: auto;
     display: block;
+    background-color: #ffffff;
    
 }
 
@@ -110,36 +111,32 @@ main{
 /* id section */
 
 #mid_logo{
-    position: relative;
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height:auto;
-    background-color: #ffffff;
+    margin-bottom: 1rem;
 }
+
 #mid_text{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    margin-top: .5rem;
-    padding-top: 2rem;
+    margin: 0 auto;
+    padding-top: 5rem;
     width: 100%;
-    height:22rem;
-    font-family: monospace;
+    height: 20rem;
     background-color: #7a1501;
     color: #ffffff;
 }
 
 #mid_text > h2{
+    font-family: "Francois One";
     font-size: 2.5rem;
     font-weight: bold;
     letter-spacing: -.09rem;
 }
 
 h3{
-    font-size: 2.7rem;
-    font-weight: bolder;
-    font-family: monospace;
+    font-family: "Cinzel";
+    font-size: 2.1rem;
     letter-spacing: -.05rem;
     
 }
@@ -147,26 +144,15 @@ h3{
 footer{
     margin: 0 auto;
     padding: 0;
-    position: relative;
     width: 100%;
-    height: 12rem;
+    height: 13rem;;
     display: block;
     background-color: #7a1501;
+    text-align: center;
 }
 
-#bottom{
-    position: relative;
-    width: 100%;
-    height: 30%;
-    display: block;
-    padding: 0;
-    margin: 0;
-    
-    
-}
 
-#bottom > ul > li{
-    position: relative;
+footer > ul > li{
     margin: 0 auto;
     padding: 0;
     width: calc(100%/3);
@@ -176,10 +162,9 @@ footer{
     
 }
 
-#bottom > ul > li > span{
+footer > ul > li > span{
     margin: 0 auto;
     display: block;
     color: #ffffff;
-    
 
 }
