@@ -28,6 +28,10 @@ header{
     background-color: #ffffff;
 }
 
+label{
+    display: none;
+}
+
 nav{
     margin: 0 auto;
     padding: 0;
@@ -186,33 +190,42 @@ footer{
     
 }
 
-@media only screen and (min-width:786px){
-   header > i{
-        visibility: hidden;
-        
-    }
-}
+
+
+
 
 @media only screen and (max-width:785px){
-    
-    header{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 5rem;
-        background-color: #fff;
-    }
     
     nav{
         display: none;
     }
     
-    
-    i{
+    label{
+        display: block;
         margin: 0;
+        padding: 0;
         width: 100%;
-        height: 5rem;
+        cursor: pointer;
+        visibility: visible;
         text-align: right;
+    }
+    
+    #toggle-1{
+       display: none;
+    }
+    
+    #toggle-1:checked~nav{
+        position: relative;
+        display: block;
+        width: 100%;
         
     }
+    
+
+    .media > li{
+        display: block;
+        
+    }
+    
+    
 }
