@@ -28,9 +28,6 @@ header{
     background-color: #ffffff;
 }
 
-label{
-    display: none;
-}
 
 nav{
     margin: 0 auto;
@@ -51,13 +48,14 @@ nav > ul{
 nav > ul > li{
     padding: 0;
     margin-top: 2.5rem;
-    width: calc(50%/7);
+    width: calc(60%/7);
     height: 5rem;
     line-height: 5rem;
     list-style-type: none;
     color: #000000;
     font-weight: bold;
     display: inline-block;
+    font-size: 1.3rem;
     
 }
 
@@ -105,12 +103,11 @@ main{
 }
 
 
-/* id section */
 
 #mid_logo{
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
     height:auto;
     margin-bottom: 1rem;
 }
@@ -167,7 +164,7 @@ footer{
 #bottomlogos > li{
     margin: 0 auto;
     padding: 0;
-    width: calc(100%/5);
+    width: calc(90%/5);
     height: auto;
     display: inline-block;
     text-align: center;
@@ -184,17 +181,25 @@ footer{
     margin: 0 auto;
     padding: 0;
     display: block;
-    width: 10rem;
+    width: 40%;
     height: auto;
     color: #ffffff;
     
 }
 
+@media only screen and (min-width:781px){
+    
+    #label_wrap{
+        display: none;
+}
 
+    input{
+        display: none;
+}
+    
+}
 
-
-
-@media only screen and (max-width:785px){
+@media only screen and (max-width:780px){
     
     nav{
         display: none;
@@ -208,11 +213,13 @@ footer{
         cursor: pointer;
         visibility: visible;
         text-align: right;
+
     }
     
     #toggle-1{
        display: none;
-    }
+    
+}
     
     #toggle-1:checked~nav{
         position: relative;
@@ -224,8 +231,14 @@ footer{
 
     .media > li{
         display: block;
-        
+        width: calc(100%/7);
+        margin: 0 auto;
+        float: left;
+        transform: scale(.8);
     }
     
+    #mid_logo{
+        transform: scale(.5);
+    }
     
 }
