@@ -94,20 +94,23 @@ main{
 }
 
 
-/* class section */
-
 .center{
     margin: 0 auto;
     padding: 0;
     text-align: center;
 }
 
-
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;   
+}
 
 #mid_logo{
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
     height:auto;
     margin-bottom: 1rem;
 }
@@ -201,18 +204,37 @@ footer{
 
 @media only screen and (max-width:780px){
     
+    header{
+        display: block;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    
     nav{
         display: none;
+    }
+    
+    #label_wrap{
+        text-align: right;
+        width: 100%;
+        
     }
     
     label{
         display: block;
         margin: 0;
         padding: 0;
-        width: 100%;
+        width: auto;
+        height: auto;
         cursor: pointer;
         visibility: visible;
-        text-align: right;
+        color: #888888;
+        border: solid .1rem;
+        border-radius: .4rem;
+        opacity: .7;
 
     }
     
@@ -236,9 +258,5 @@ footer{
         float: left;
         transform: scale(.8);
     }
-    
-    #mid_logo{
-        transform: scale(.5);
-    }
-    
+
 }
