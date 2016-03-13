@@ -100,7 +100,7 @@ main{
     text-align: center;
 }
 
-img{
+#geekwise_img{
     max-width: 100%;
     height: auto;
     vertical-align: middle;
@@ -126,14 +126,14 @@ img{
 
 #mid_text > h2{
     font-family: "Francois One";
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     font-weight: bold;
 
 }
 
 h3{
     font-family: "Cinzel";
-    font-size: 2.1rem;
+    font-size: 2.0rem;
     
 }
 
@@ -254,7 +254,8 @@ footer{
 
     .media > li{
         display: block;
-        width: calc(100%/7);
+        height: auto;
+        width: 100%;
         margin: 0 auto;
         float: left;
         transform: scale(.8);
