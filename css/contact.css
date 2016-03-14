@@ -23,19 +23,31 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 12rem;
-    display: inline-block;
+    height: 8rem;
+    display: block;
        
 }
 
-#sm_geek_logo{
-    margin: 0 auto;
+#header_wrap{
+    margin: 0;
     padding: 0;
-    width: 70%;
-    height: 12rem;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+#geek_logo{
+    float: left;
+    margin-left: 1rem;
+    padding: 0;
+    width: 20%;
+    height: 100%;
     display: block;
     background-image: url(http://i.imgur.com/86TsPmf.png);
     background-repeat: no-repeat;
+    background-position: left center;
+    
     
 }
 
@@ -43,17 +55,16 @@ nav{
     margin: 0 auto;
     padding: 0;
     width: 78%;
-    height: 12rem;
+    height: 100%;
     float: right;
-    display: block; 
+    display: inline-block; 
     
 }
 
 nav > ul{
     margin: 0 auto;
-    padding: 0;
-    width: 92%;
-    height: 12rem;
+    width: 100%;
+    height: auto;
     display: block;
 
 }
@@ -61,8 +72,8 @@ nav > ul{
 nav > ul > li{
     text-align: center;
     padding: 0;
-    margin: 0 auto;
-    width: calc(100%/7);
+    margin-left: 1.2rem;
+    width: calc(80%/7);
     float: left;
     height: 5rem;
     line-height: 5rem;
@@ -123,114 +134,31 @@ main{
     background-size: cover;
    
 }
-/*
 
-#text/img_container{
+#text-img_wrap{
     margin: 0 auto;
     padding: 0;
     width: 100%;
     height: auto;
-    
-}
-
-#building_img{
-    max-width: 100%;
-    height: auto;
-    border: 0;
-}
-*/
-/*
-
-img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border: 0;   
-}
-
-#mid_logo{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height:auto;
-    margin-bottom: 1rem;
-}
-
-#mid_text{
-    margin: 0 auto;
-    padding-top: 4rem;
-    width: 100%;
-    height: 25%;
-    background-color: #7a1501;
-    color: #ffffff;
-}
-
-#mid_text > h2{
-    font-family: "Francois One";
-    font-size: 2.8rem;
-    font-weight: bold;
-
-}
-
-h3{
-    font-family: "Cinzel";
-    font-size: 2.1rem;
-    
-}
-
-#divider{
-    width: 80%;
-    margin: 3rem auto;
-    border-bottom: 1px solid white;
-    font-size: .1rem;
-    height: 1px;
-    overflow: hidden;
-}
-
-footer{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 15rem;
     display: block;
-    background-color: #7a1501;
-    
-}
-
-#bottomlogos{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    height: 15rem;
-    display: block;
-}
-
-#bottomlogos > li{
-    margin: 0 auto;
-    padding: 0;
-    width: calc(90%/5);
-    height: auto;
-    display: inline-block;
     text-align: center;
-}
-
-#bottomlogos > li:nth-of-type(even){
-    border-right: .1rem solid #ffffff;
-    width: 1%;
-    height: 60%;
+    position: relative;
+    transform: translateY(100%);
     
 }
 
-#bottomlogos > li > span{
+#text-img{
     margin: 0 auto;
     padding: 0;
+    width: 25%;
+    min-height: 50%;
     display: block;
-    width: 100%;
-    height: auto;
-    color: #ffffff;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
     
 }
-*/
+
 
 @media only screen and (min-width:781px){
     #fafa{
