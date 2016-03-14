@@ -29,15 +29,15 @@ header{
 }
 
 #sm_geek_logo{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding-top: 1.5rem;
     width: 20%;
     height: 12rem;
     float: left;
     display: block;
     background-image: url(http://i.imgur.com/86TsPmf.png);
     background-repeat: no-repeat;
-    background-color: pink;0
+    
 }
 
 nav{
@@ -103,21 +103,31 @@ nav > ul > li:active{
 main{
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    min-height: 100%;
     display: block;
-    background-image: url(http://i.imgur.com/ewBQdOp.jpg) width=2000px height=1164px;
+    position: relative;
+    background-image: url(http://i.imgur.com/ewBQdOp.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
    
 }
+/*
 
-
-.center{
+#text/img_container{
     margin: 0 auto;
     padding: 0;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    
 }
+
+#building_img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+*/
 /*
 
 img{
