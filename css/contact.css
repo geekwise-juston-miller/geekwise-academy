@@ -15,7 +15,7 @@ body{
     height: auto;
     background-color: #7a1501;
     font-size: 1.6rem;
-    box-sizing: border-box;
+    display: block;
 }
 
 
@@ -23,50 +23,66 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     display: block;
-    background-color: #ffffff;
+       
 }
 
+#sm_geek_logo{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 12rem;
+    float: left;
+    display: block;
+    background-image: url(http://i.imgur.com/86TsPmf.png);
+    background-repeat: no-repeat;
+    background-color: pink;0
+}
 
 nav{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 90%;
-    height: 15rem;
-    display: inline-block;
+    width: 80%;
+    height: 12rem;
+    float: right;
+    display: block; 
+    
 }
 
 nav > ul{
     margin: 0 auto;
-    width: 100%;
-    height: auto;
+    padding: 0;
+    width: 92%;
+    height: 12rem;
     display: block;
 
 }
 
 nav > ul > li{
+    text-align: center;
     padding: 0;
-    margin-top: 2.5rem;
-    width: calc(60%/7);
+    margin: 0 auto;
+    width: calc(100%/7);
+    float: left;
     height: 5rem;
     line-height: 5rem;
     list-style-type: none;
-    color: #000000;
     font-weight: bold;
-    display: inline-block;
-    font-size: 1.3rem;
+    display: block;
+    font-size: 1.6rem;
     
 }
 
 nav > ul > li > a{
     text-decoration: none;
+    color: #000000;
+
 }
 
 /* sign up nav box*/
 
 nav > ul > li:nth-of-type(5){
-    font-weight: normal;
     background-color: #f9da0c;
     
 }
@@ -83,13 +99,16 @@ nav > ul > li:active{
     background-color: #f9da0c;
 }
 
+
 main{
     margin: 0 auto;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: block;
-    background-color: #ffffff;
+    background-image: url(http://i.imgur.com/ewBQdOp.jpg) width=2000px height=1164px;
+    background-repeat: no-repeat;
+    background-position: center;
    
 }
 
@@ -99,6 +118,7 @@ main{
     padding: 0;
     text-align: center;
 }
+/*
 
 img{
     max-width: 100%;
@@ -188,4 +208,77 @@ footer{
     height: auto;
     color: #ffffff;
     
+}
+*/
+
+@media only screen and (min-width:781px){
+    #fafa{
+        display: none;
+    }
+    
+    input{
+        display: none;
+}
+}
+
+@media only screen and (max-width:780px){
+    
+    header{
+        display: block;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    #label_wrap{
+        display: block;
+        text-align: right;
+        
+    }
+    
+    label{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        visibility: visible;
+        color: #888888;
+        border: solid .1rem;
+        border-radius: .4rem;
+        opacity: .7;
+
+    }
+    
+    #toggle-1{
+       display: none;
+    
+}
+    
+    #toggle-1:checked~nav{
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 10rem;
+        
+    }
+    
+
+    .media > li{
+        display: block;
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+        transform: scale(.8);
+    }
+
 }
