@@ -18,20 +18,29 @@ body{
     display: block;
 }
 
+.full-body-img{
+    min-height: 100%;
+    position: relative;
+    background-image: url(http://i.imgur.com/ewBQdOp.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
 
 header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 8rem;
+    height: 7.5rem;
     display: block;
-       
+    background-color: #7a1501;    
 }
 
 #header_wrap{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 80%;
+    width: 90%;
     height: auto;
     display: block;
     
@@ -41,20 +50,19 @@ header{
     float: left;
     margin: 0 auto;
     padding: 0;
-    width: 22%;
+    width: 23%;
     height: 100%;
     display: block;
     background-image: url(http://i.imgur.com/86TsPmf.png);
     background-repeat: no-repeat;
-    background-position: right;
-    
+    background-position: center;
     
 }
 
 nav{
     margin: 0 auto;
     padding: 0;
-    width: 78%;
+    width: 77%;
     height: 100%;
     float: right;
     display: inline-block; 
@@ -63,6 +71,7 @@ nav{
 
 nav > ul{
     margin: 0 auto;
+    padding: 0;
     width: 100%;
     height: auto;
     display: block;
@@ -72,14 +81,13 @@ nav > ul{
 nav > ul > li{
     text-align: center;
     padding: 0;
-    margin-left: 1.1rem;
-    width: calc(80%/7);
-    float: left;
+    margin-left: 1.4rem;
+    width: calc(100%/7) auto;
     height: 5rem;
     line-height: 5rem;
     list-style-type: none;
     font-weight: bold;
-    display: block;
+    display: inline-block;
     font-size: 1.5rem;
     
 }
@@ -104,7 +112,7 @@ nav > ul > li:nth-of-type(7){
     
 }
 
-#signup{
+#signup-text{
     color: #7a1501;
     text-decoration: none;
 }
@@ -126,12 +134,9 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    min-height: 100%;
+    min-height: 50rem;
     display: block;
-    position: fixed;
-    background-image: url(http://i.imgur.com/ewBQdOp.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
    
 }
 
@@ -139,20 +144,19 @@ main{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 65rem;
+    height: auto;
     display: block;
     text-align: center;
     position: relative;
-    top: 50%;
-    transform: translateY(50%);
+    top: 17.5rem;
     
 }
 
 #text-img{
     margin: 0 auto;
     padding: 0;
-    width: 25%;
-    min-height: 36%;
+    width: 20rem;
+    min-height: 23rem;
     display: block;
     position: relative;
     text-align: center;
@@ -185,7 +189,7 @@ main{
     font-size: 1.2rem;
 }
 
-@media only screen and (min-width:781px){
+@media only screen and (min-width:751px){
     #fafa{
         display: none;
     }
@@ -195,64 +199,10 @@ main{
 }
 }
 
-@media only screen and (max-width:780px){
+@media only screen and (max-width:750px){
     
-    header{
-        display: block;
-        background-color: #FFFFFF;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: auto;
-    }
     
-    nav{
-        display: none;
-    }
     
-    #label_wrap{
-        display: block;
-        text-align: right;
-        
-    }
     
-    label{
-        position: relative;
-        display: block;
-        margin: 0 auto;
-        padding: 0;
-        width: auto;
-        height: auto;
-        cursor: pointer;
-        visibility: visible;
-        color: #888888;
-        border: solid .1rem;
-        border-radius: .4rem;
-        opacity: .7;
-
-    }
     
-    #toggle-1{
-       display: none;
-    
-}
-    
-    #toggle-1:checked~nav{
-        position: relative;
-        display: block;
-        width: 100%;
-        height: 10rem;
-        
-    }
-    
-
-    .media > li{
-        display: block;
-        height: auto;
-        width: 100%;
-        margin: 0 auto;
-        float: left;
-        transform: scale(.8);
-    }
-
 }
