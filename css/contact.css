@@ -24,16 +24,15 @@ header{
     padding: 0;
     width: 100%;
     height: 12rem;
-    display: block;
+    display: inline-block;
        
 }
 
 #sm_geek_logo{
     margin: 0 auto;
-    padding-top: 1.5rem;
-    width: 20%;
+    padding: 0;
+    width: 70%;
     height: 12rem;
-    float: left;
     display: block;
     background-image: url(http://i.imgur.com/86TsPmf.png);
     background-repeat: no-repeat;
@@ -41,9 +40,9 @@ header{
 }
 
 nav{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 80%;
+    width: 78%;
     height: 12rem;
     float: right;
     display: block; 
@@ -74,29 +73,41 @@ nav > ul > li{
     
 }
 
-nav > ul > li > a{
+.links{
     text-decoration: none;
-    color: #000000;
+    color: #fff;
 
 }
+/* "contact" nav bar */
 
-/* sign up nav box*/
+#letter_yellow{
+    color: #f9da0c;
+    text-decoration: none;
+    
+}
 
-nav > ul > li:nth-of-type(5){
+/* "signup" nav bar*/
+
+nav > ul > li:nth-of-type(7){
     background-color: #f9da0c;
     
 }
 
+#signup{
+    color: #7a1501;
+    text-decoration: none;
+}
+
 /* mouse over link */
 
-nav > ul > li:hover{
-    background-color: #f9da0c;
+.links:hover{
+    color: #f9da0c;
 }
 
 /* selected link */
 
-nav > ul > li:active{
-    background-color: #f9da0c;
+.links:active{
+    color: #f9da0c;
 }
 
 
