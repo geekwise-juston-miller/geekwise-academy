@@ -1,0 +1,36 @@
+html, body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 62.5%;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: #7a1501;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 15rem;
+    display: block;
+    background-color: #ffffff;
+}
+
+nav{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 15rem;
+    display: inline-block;
+}
