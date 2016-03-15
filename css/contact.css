@@ -21,7 +21,7 @@ body{
 .full-body-img{
     margin: 0;
     padding: 0;
-    min-height: 500px;
+    min-height: 100%;
     width: auto;
     background-image: url(http://i.imgur.com/ewBQdOp.jpg);
     background-repeat: no-repeat;
