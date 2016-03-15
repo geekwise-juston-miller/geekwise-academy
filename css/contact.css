@@ -19,7 +19,11 @@ body{
 }
 
 .full-body-img{
-    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    min-height: 500px;
+    width: auto;
     position: relative;
     background-image: url(http://i.imgur.com/ewBQdOp.jpg);
     background-repeat: no-repeat;
@@ -32,9 +36,10 @@ header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 8rem;
+    height: 19%;
     display: block;
-    background-color: #7a1501;    
+    background-color: #7a1501;
+    
 }
 
 #header_wrap{
@@ -65,7 +70,7 @@ nav{
     width: 100%;
     height: auto;
     display: block; 
-    
+    position: relative;
 }
 
 nav > ul{
@@ -86,7 +91,7 @@ nav > ul > li{
     line-height: 5rem;
     list-style-type: none;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     font-size: 1.5rem;
     float: right;
     
@@ -109,10 +114,11 @@ nav > ul > li{
 
 
 #signup-text{
-    margin: 1rem 1rem 0;
+    text-align: center;
+    margin: 0 1rem 0;
     padding: 0;
     display: inline-block;
-    width: auto;
+    width: 7rem;
     height: 5rem;
     line-height: 5rem;
     color: #7a1501;
@@ -140,35 +146,44 @@ nav > ul > li{
 main{
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-    min-height: 50rem;
+    width: auto;
+    height: auto;
     display: block;
     position: relative;
    
 }
 
-#text-img_wrap{
+#text_img_wrap{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     text-align: center;
     position: relative;
-    top: 17.5rem;
     
 }
 
 #text-img{
     margin: 0 auto;
     padding: 0;
-    width: 20rem;
-    min-height: 23rem;
+    width: 22rem;
+    height: 25rem;
     display: block;
     position: relative;
-    text-align: center;
     background-color: #fff;
+    top: 35%;
+    overflow-y: hidden;
     
+}
+
+#text-img > img{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+     position: relative;
 }
 
 #text-img > span{
@@ -181,14 +196,12 @@ main{
 }
 
 #text-img > p{
-    position: relative;
     display: block;
     width: 100%;
     height: auto;
 }
 
 #text-img > p > a{
-    position: relative;
     display: block;
     color: #000;
     text-decoration: none;
@@ -208,23 +221,13 @@ input{
 }
 
 @media only screen and (max-width:750px){
-    
-#header_wrap{
-        position: relative;
-        margin: 0 auto;
-        padding: 0;
-        width: 100%;
-        height: 11rem;
-        display: block;
-    
-}
-    
+        
 #label_wrap{
         display: block;
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 11rem;
+        height: auto;
         background-color: #7a1501; 
         
 }
@@ -233,38 +236,32 @@ nav{
         display: none;
 }
     
-label{
+#fafa{
         position:relative;
-        display: inline-block;
-        margin: 1rem 1.8rem 0;
+        display: block;
+        margin: 2.5rem 1.8rem 0;
         padding: 0;
         width: auto;
         height: auto;
         cursor: pointer;
         visibility: visible;
-        color: #888888;
-        border: solid .2rem;
-        border-radius: .4rem;
+        color: #dddddd;
+        border: solid .3rem;
+        border-radius: .3rem;
         float: right;
         clear: right;
+    
 }
     
 #toggle-1{
-    
-       display: none;
+        display: none;
     
 }
     
 #toggle-1:checked~nav{
-    
         position: relative;
         display: block;
-        margin: 0;
-        padding: 0;
-        width: auto;
-        height: auto;
-        
-        
+    
 }
     
     /* "signup" nav bar*/
@@ -284,5 +281,17 @@ label{
         font-weight: bold;
     
 }
-    
+
+li{    
+        
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: auto;
+        list-style-type: none;
+        font-weight: bold;
+        display: block;
+        background-color: #7a1501;
+    }
+      
 }
