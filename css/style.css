@@ -214,27 +214,25 @@ footer{
 
 @media only screen and (max-width:785px){
     
-    .header1{
-        display: block;
-        background-color: #FFFFFF;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: auto;
-    }
+.header1{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fff
+
+}
     
     .nav1{
         display: none;
     }
     
     .label_wrap{
-/*
         display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: flex-start;
-        align-content: space-around;
-*/
+        flex-flow: column;
+        margin: 0;
+        padding: 0;
         height: auto;
         width: 100%;
         
@@ -261,29 +259,28 @@ footer{
 }
     
     #toggle-1:checked~nav{
-        display: flex;
-        justify-content: center;
+        margin: 0;
+        padding: 0;
         width: 100%;
         height: auto;
+        display: flex;
+        
         
     }
     
-
-    .list-item{
-/*
-            margin: 0;
-            padding: 0;
-            width: 8rem;
-            height: 5rem;
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.3rem;
-            font-weight: bold;
-        
-*/
-
+    .list1{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    
     }
+    
+
 
 }
