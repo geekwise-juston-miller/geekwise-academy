@@ -20,12 +20,13 @@ body{
 
 
 .header1{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: block;
     width: 100%;
     height: 12rem;
-    background-color: #fff
+    background-color: #fff;
+    text-align: center;
 
 }
 
@@ -36,24 +37,34 @@ body{
     height: 12rem;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 .list1{
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    width: 100%;
+    width: 50%;
     height: 5rem;
-    line-height: 5rem;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
 }
 
 .list-item{
-    
+    margin: 0;
+    padding: 0;
+    width: 7rem;
+    height: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 1;
+    font-size: 1.4rem;
+    font-weight: bold;
     
 }
 
