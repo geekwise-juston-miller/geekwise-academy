@@ -24,17 +24,36 @@ body{
     padding: 0;
     display: block;
     width: 100%;
-    height: 22rem;
+    height: auto;
     background-color: #fff;
     text-align: center;
+    
+}
 
+.logo{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-image: url(http://i.imgur.com/2zyQzeb.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.label_wrap > a{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 4.3rem;
 }
 
 .nav1{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 12rem;
+    height: 24rem;
     display: flex;
     display: -webkit-flex;
     flex-flow: row wrap;
@@ -46,13 +65,12 @@ body{
     list-style: none;
     margin: 0 auto;
     padding: 0;
-    width: 80%;
-    height: 5rem;
+    width: 55%;
+    height: 60%;
     display: flex;
     display: -webkit-flex;
-    flex-flow: row wrap;
-    align-content:center;
-    justify-content: center;
+    justify-content: space-around;
+    
     
 }
 
@@ -63,11 +81,11 @@ body{
     height: 5rem;
     display: flex;
     display: -webkit-flex;
-    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
     font-weight: bold;
+    background-color: #fff;
     
 }
 
