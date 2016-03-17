@@ -38,6 +38,7 @@ body{
 .logo{
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content: space-around;
     margin: 0 auto;
     padding: 0;
@@ -47,21 +48,19 @@ body{
 }
 
 .logo > a{
-    margin: 0;
-    padding: 0;
-    width: auto;
-    height: auto;
+    flex: 0;
 }
 /* nav wrap for @media button dropdown at top of page  */
 
 .label_wrap{
-    width: auto;
-    height: auto;
+    flex: 1;
 }
 
 .nav1{
     
 }
+
+/*
 
 .list1{
     list-style: none;
@@ -74,6 +73,9 @@ body{
     justify-content: space-around;
     
 }
+*/
+
+/*
 
 .list-item{
     margin: 0;
@@ -89,6 +91,7 @@ body{
     background-color: #fff;
     
 }
+*/
 
   #fafa{
         display: none;
@@ -97,6 +100,7 @@ body{
     input{
         display: none;
 }
+
 
 /*
 .list-item > a{
