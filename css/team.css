@@ -21,7 +21,7 @@ body{
 /* main header wrap = logos, font awesome as button & nar bar */
 
 .header1{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     display: block;
     width: 100%;
@@ -33,45 +33,36 @@ body{
     
 }
 
-/* nav wrap for @media button dropdown at top of page  */
+/*    div with sm geekwise logo   */
 
 .logo{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 100%;0
+    height: 100%;
     
 }
 
 .logo > a{
-    flex: 1
-        
-}
-
-/*
-.label_wrap{
-    display: flex;
-    flex-flow:row wrap;
+    flex: 1 1;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: auto;
     height: auto;
-    
 }
-*/
+/* nav wrap for @media button dropdown at top of page  */
+
+.label_wrap{
+    flex: 2 1;
+    width: auto;
+    height: auto;
+}
 
 .nav1{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 24rem;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row wrap;
-    align-items: center;
-
+    
 }
 
 .list1{
@@ -83,7 +74,6 @@ body{
     display: flex;
     display: -webkit-flex;
     justify-content: space-around;
-    
     
 }
 
@@ -102,6 +92,15 @@ body{
     
 }
 
+  #fafa{
+        display: none;
+    }
+    
+    input{
+        display: none;
+}
+
+/*
 .list-item > a{
     text-decoration: none;
     color: #000;
@@ -127,8 +126,10 @@ body{
     background-color: #f9da0c;
 }
 
+*/
 
-/*@media only screen and (min-width:785px){*/
+@media only screen and (min-width:785px){
+    
     #fafa{
         display: none;
     }
@@ -136,9 +137,13 @@ body{
     input{
         display: none;
 }
+    
 }
 
-/*@media only screen and (max-width:785px){*/
+
+/*
+
+@media only screen and (max-width:785px){
     
 .header1{
     margin: 0;
@@ -210,3 +215,4 @@ body{
 
 
 }
+*/
