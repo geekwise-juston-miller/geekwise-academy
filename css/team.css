@@ -38,44 +38,53 @@ body{
 .logo{
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: auto;
     
 }
 
 .logo > a{
-    flex: 0;
+    flex: 1;
+    margin: 2rem auto;
+    padding: 0;
+    width: auto;
+    height: auto;
+    
 }
 /* nav wrap for @media button dropdown at top of page  */
 
 .label_wrap{
-    flex: 1;
-}
-
-.nav1{
+    flex: 3;
+    margin: 0 auto;
+    padding: 0;
+    width: auto;
+    height: auto;
     
 }
 
-/*
+.nav1{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+
 
 .list1{
     list-style: none;
     margin: 0 auto;
     padding: 0;
-    width: 55%;
-    height: 60%;
+    width: 100%;
+    height: 7rem;
     display: flex;
-    display: -webkit-flex;
     justify-content: space-around;
+    background-color: #fff;
     
 }
-*/
 
-/*
 
 .list-item{
     margin: 0;
@@ -83,30 +92,20 @@ body{
     width: 8rem;
     height: 5rem;
     display: flex;
-    display: -webkit-flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     background-color: #fff;
     
 }
-*/
-
-  #fafa{
-        display: none;
-    }
-    
-    input{
-        display: none;
-}
 
 
-/*
 .list-item > a{
     text-decoration: none;
     color: #000;
 }
+
 
 /* sign up nav box*/
 
@@ -128,7 +127,6 @@ body{
     background-color: #f9da0c;
 }
 
-*/
 
 @media only screen and (min-width:785px){
     
