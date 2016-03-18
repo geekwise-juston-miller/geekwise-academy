@@ -175,13 +175,55 @@ body{
 
 .motto{
     display: block;
-    margin: 0 auto;
+    margin: 4rem;
     padding: 0;
     width: 90%;
-    height: 15rem;
+    height: 12rem;
     font-family: "Francois+One";
+    font-size: 2.2rem;
     color: #fff;
-    text-
+    text-align: center;
+    
+}
+
+/* start of team img section */
+
+/*   bio wrapper   */
+
+.team-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    
+}
+
+/* jake img section */
+
+.jakes-div{
+    flex: 0;
+    
+}
+
+/*  irma's img  section  */
+
+.irmas-div{
+    flex: 0;
+    
+}
+
+/*  beth's img section   */
+
+.beths-div{
+    flex: 0;
+    
+}
+
+/*  terry's img section  */
+
+.terrys-div{
+    flex: 0;
     
 }
 
