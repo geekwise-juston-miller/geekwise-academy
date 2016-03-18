@@ -175,9 +175,9 @@ body{
 
 .motto{
     display: block;
-    margin: 4rem;
+    margin: 4rem auto;
     padding: 0;
-    width: 90%;
+    width: 70%;
     height: 12rem;
     font-family: "Francois+One";
     font-size: 2.2rem;
@@ -194,39 +194,43 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+/* bio img section */
+
+.bio{
+    flex: 0;
+    width: auto;
+    height: auto;
+    text-align: center;
+    
+}
+
+
+.names{
+    display: block;
+    margin: 1rem 0 auto;
+    padding: 0;
     width: 100%;
     height: auto;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #000;
     
 }
 
-/* jake img section */
+.click:hover{
+    opacity: .45;
+    cursor: pointer;
+    transition: 1s fast;
 
-.jakes-div{
-    flex: 0;
-    
 }
-
-/*  irma's img  section  */
-
-.irmas-div{
-    flex: 0;
-    
-}
-
-/*  beth's img section   */
-
-.beths-div{
-    flex: 0;
-    
-}
-
-/*  terry's img section  */
-
-.terrys-div{
-    flex: 0;
-    
-}
-
 
 /*  hide the font awesome button  */
 
