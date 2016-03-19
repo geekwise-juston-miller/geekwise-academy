@@ -134,7 +134,7 @@ body{
 /*  end of full view nar bar */
 
 
-/* sign up nav box*/
+/* sign up nav button that can be moved on the page   */
 
 .signup-box > li{
     font-weight: normal;
@@ -163,6 +163,27 @@ body{
     transition: 1s fast;
 
 }
+
+.the-title{
+    width: auto;
+    height: 80%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.about-text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    
+}
+
 
 /*  hide the font awesome button  */
 
