@@ -40,13 +40,13 @@ body{
     flex: auto;
     margin: 0 auto;
     padding: 0;
-    width: 70%;
+    width: 100%;
     height: auto;
     
 }
 
 .logo > a{
-    margin: 2rem 2rem auto;
+    margin: 2rem 0 0 6rem;
     padding: 0;
     width: auto;
     height: auto;
@@ -60,6 +60,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #fff;
+    height: auto;
+    width: auto''
 }
 
 /*  full view nav bar */
@@ -165,7 +167,7 @@ body{
 }
 
 .the-title{
-    width: auto;
+    width: 90%;
     height: 80%;
     margin: 0 auto;
     padding: 0;
@@ -173,14 +175,25 @@ body{
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: flex-end;
+    text-align: right;
 }
+
 
 .about-text{
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-content: space-between;
     width: 90%;
     height: auto;
+    margin: auto;
+    padding: 0;
+    
+}
+
+.text_area{
+    color: #fff;
+    font-size: 1.4rem;
     
 }
 
