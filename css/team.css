@@ -147,7 +147,7 @@ body{
 .list-item:hover{
     background-color: #f9da0c;
     cursor: pointer;
-    transition: background-color 2s ease-out;
+    transition: background-color 1s ease-out;
 }
 
 /* selected link */
@@ -193,10 +193,9 @@ body{
 .team-wrapper{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 20rem;
+    justify-content: space-between;
+    width: 70%;
+    height: 30%;
     margin: 0 auto;
     padding: 0;
     
@@ -205,32 +204,42 @@ body{
 /* bio img section */
 
 .bio{
-    flex: 0;
     width: auto;
     height: auto;
     text-align: center;
-    
+    opacity: .5;
 }
 
 
 .names{
-    display: block;
-    margin: 1rem 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
     padding: 0;
     width: 100%;
     height: auto;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #000;
-    
+
 }
 
 .click:hover{
-    opacity: .45;
-    cursor: pointer;
-    transition: 1s fast;
+    opacity: 1;
+    
 
 }
+
+.name_text{
+    margin: 1rem 0 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-weight: 700;
+    
+}
+
 
 /*  hide the font awesome button  */
 
