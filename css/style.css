@@ -88,6 +88,8 @@ body{
 
 .list-item:hover{
     background-color: #f9da0c;
+    transition: background-color 1s ease-out;
+    
 }
 
 /* selected link */
