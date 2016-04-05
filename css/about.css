@@ -2,7 +2,7 @@ html, body{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 750px;
     font-size: 62.5%;
     font-family:sans-serif;
     box-sizing: border-box;
@@ -25,14 +25,12 @@ body{
     padding: 0;
     display: block;
     width: 100%;
-    height: auto;
+    height: 240px;
     background-color: #fff;
     background-image: url(http://geekwiseacademy.com/img/owl-about.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    
-    
-    
+        
 }
 
 /*    div with sm geekwise logo   */
@@ -42,13 +40,13 @@ body{
     flex-flow: row nowrap;
     margin: 0 auto;
     padding: 0;
-    width: 70%;
-    height: 30%;
+    width: 80%;
+    height:auto;
     
 }
 
 .logo > a{
-    margin: 2rem 0 0 6rem;
+    margin: 2rem 0 0 0;
     padding: 0;
     width: auto;
     height: auto;
@@ -63,7 +61,7 @@ body{
     padding: 0;
     background-color: #fff;
     height: auto;
-    width: auto''
+    width: auto;
 }
 
 /*  full view nav bar */
@@ -71,6 +69,8 @@ body{
 .nav1{
     display: flex;
     flex: auto;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     
@@ -117,7 +117,7 @@ body{
 .list-item{
     margin: 0 auto;
     padding: 0;
-    width: 8rem;
+    width: auto;
     height: 5rem;
     display: flex;
     flex-grow: 2;
@@ -185,7 +185,7 @@ body{
     display: flex;
     justify-content:space-between;
     width: 90%;
-    height: 578px;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     
@@ -199,10 +199,20 @@ body{
     padding: 0;
     color: #fff;
     font-size: 1.4rem;
-    
+ 
     
 }
 
+footer{
+    display: block;
+    width: 100%;
+    height: 10%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: yellow;
+    text-align: center;
+    font-size: 2rem;
+}
 
 /*  hide the font awesome button  */
 
